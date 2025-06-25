@@ -1,0 +1,22 @@
+public class MataKuliah {
+    private String kodeMatkul;
+    private String namaMatkul;
+
+    public MataKuliah(String kodeMatkul, String namaMatkul) {
+        this.kodeMatkul = kodeMatkul;
+        this.namaMatkul = namaMatkul;
+    }
+
+    public String getKodeMatkul() {
+        return kodeMatkul;
+    }
+
+    public String getNamaMatkul() {
+        return namaMatkul;
+    }
+
+    public void tampilkanInfo() {
+        System.out.println("Kode Matkul: " + kodeMatkul);
+        System.out.println("Nama Matkul: " + namaMatkul);
+    }
+}
